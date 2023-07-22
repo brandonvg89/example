@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "printInConsoleWithWhileLoop",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bucleWhile.sol": "bucleFor"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bucleWhile.sol": {
+			"keccak256": "0x2be4768c7e1c2b20db0198f812d1e7c0d23b150af4ca15662a8ac032617dd4ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9f2bba2dc3c32229a72cca60bd79d8f0bf60f9a78137bf1b1ef61a0eaccaee3e",
+				"dweb:/ipfs/QmTe4jtqft2SxEN3VkBcMMmvjyAj8GwLFJwTigxouMbge5"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0xfb9a1c05ce82a728e108b58b71a09f13d9586fc70555e82d190e9b2f5a6183af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://99a82d0154a830eab2627cc36e6638b1eeb6766f408575eccb4efbd4e8bde1d0",
+				"dweb:/ipfs/QmZztP46dzfy43QtSqnP2jnhZhtQxjFqhiBMz56b8qC5Ty"
+			]
+		}
+	},
+	"version": 1
+}
