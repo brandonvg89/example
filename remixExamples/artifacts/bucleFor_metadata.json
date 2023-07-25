@@ -8,8 +8,27 @@
 			{
 				"inputs": [],
 				"name": "printInConsoleWithForLoop",
-				"outputs": [],
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numEst",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumEstudiantes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -49,11 +68,11 @@
 			]
 		},
 		"remixExamples/bucleFor.sol": {
-			"keccak256": "0x25d1e90336840fefa1c9da9bbe91719fcf6c3988a06c2465f03dd8a5b64517f3",
+			"keccak256": "0x94f77cd104ddf51badbb75a3b36ed3bc51a1279f88f55d86bbfb8668a68b5f87",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d378feaf06b8cb77f858812df0334b7f0ac9c3765bd87735d3de27b48fcae508",
-				"dweb:/ipfs/QmRtQoXEA4uKsurbu7ry6wuACtXyEvauQrfViQxd3ihZDx"
+				"bzz-raw://4807389c01fc08742d12efd8e4913406927078874b921a1ee3988a3d33c2de95",
+				"dweb:/ipfs/QmUgWdZ3j2iYy7XhBeJADC3wFmT1dt2VWQDxkpJuE41gYa"
 			]
 		}
 	},

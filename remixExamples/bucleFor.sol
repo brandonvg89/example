@@ -4,11 +4,18 @@ pragma solidity ^0.8.17;
 import "hardhat/console.sol";
 
 contract bucleFor {
+    uint numEstudiantes;
 
-    function printInConsoleWithForLoop() public view{
-        for (uint i=0; i<5; i++) 
+    function setNumEstudiantes(uint numEst) public{
+        numEstudiantes = numEst;
+        console.log(numEstudiantes);
+    }
+
+    function printInConsoleWithForLoop() public view returns(string memory){
+        for (uint i=0; i<numEstudiantes; i++) 
         {
             console.log(i);
         }
+        return "EXITOSO";
     }
 }
